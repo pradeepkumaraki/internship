@@ -6,33 +6,12 @@
 using namespace std;
 int main()
 {
-	long  i,b,count=0,a[310725]={0};
-    // for(i=0;i<310725;i++)
-	   //  {   
-	   //  	count=count+(i*i);
-	   //  	a[i]=count;
-	   //  }
-    while(n--)
-	    { 
-	    	long num,mid;
-	    	cin>>num;
-	        mid=310725/2;
-	        chockos(num,mid,0,310724)
-	    }
-
-    chckos(long num,long mid,long lower,long upper)
-	    {
-          if(a[mid]==num)
-          	return num;
-          else if(a[mid]>num)
-          {
-            lower=mid;
-            mid=(lower+upper)/2;
-          }
-	    }
-return 0;
- }  
-
-
-
- 10000120629148350
+	long long i,a[20],n;
+    cin>>a[0]>>a[1]>>n;
+    for(i=2;i<n;i++)
+    {
+       a[i]=pow(a[i-1],2)+a[i-2];
+       cout<<a[i]<<endl;
+    }
+    return 0;
+}
