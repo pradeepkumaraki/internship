@@ -1,0 +1,236 @@
+!SESSION 2015-06-20 23:13:44.867 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-06-20 23:19:48.648
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2015-06-20 23:19:48.648
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2015-06-20 23:19:48.648
+!MESSAGE "Eclipse CVS Client" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2015-06-20 23:19:48.648
+!MESSAGE "Eclipse Plug-in Development Environment" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2015-06-20 23:19:48.648
+!MESSAGE "Eclipse Java Development Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:19:48.648
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:19:48.648
+!MESSAGE org.eclipse.wb.ercp.feature.feature.group [1.0.0.r37x201106081556] cannot be installed in this environment because its filter is not applicable.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-06-20 23:19:48.677
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2015-06-20 23:19:48.677
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2015-06-20 23:19:48.677
+!MESSAGE "Eclipse CVS Client" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2015-06-20 23:19:48.677
+!MESSAGE "Eclipse Plug-in Development Environment" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2015-06-20 23:19:48.677
+!MESSAGE "Eclipse Java Development Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:19:48.677
+!MESSAGE Cannot complete the install because some dependencies are not satisfiable
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:19:48.677
+!MESSAGE org.eclipse.wb.ercp.feature.feature.group [1.0.0.r37x201106081556] cannot be installed in this environment because its filter is not applicable.
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-06-20 23:21:00.856
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:21:00.856
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.856
+!MESSAGE Software being installed: C/C++ Call Graph Visualization (Incubation) 0.9.0.201202152032 (org.eclipse.linuxtools.callgraph.feature.feature.group 0.9.0.201202152032)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.856
+!MESSAGE Software being installed: C/C++ Call Graph Visualization (Incubation) 0.0.2.201108301805 (org.eclipse.linuxtools.callgraph.feature.group 0.0.2.201108301805)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:21:00.856
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.856
+!MESSAGE Callgraph Launch (Incubation) 0.0.1.201108301805 (org.eclipse.linuxtools.callgraph.launch 0.0.1.201108301805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.856
+!MESSAGE Callgraph Launch (Incubation) 0.9.0.201202152032 (org.eclipse.linuxtools.callgraph.launch 0.9.0.201202152032)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:21:00.856
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.856
+!MESSAGE From: C/C++ Call Graph Visualization (Incubation) 0.9.0.201202152032 (org.eclipse.linuxtools.callgraph.feature.feature.group 0.9.0.201202152032)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.856
+!MESSAGE To: org.eclipse.linuxtools.callgraph.launch [0.9.0.201202152032]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:21:00.857
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.857
+!MESSAGE From: C/C++ Call Graph Visualization (Incubation) 0.0.2.201108301805 (org.eclipse.linuxtools.callgraph.feature.group 0.0.2.201108301805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.857
+!MESSAGE To: org.eclipse.linuxtools.callgraph.launch [0.0.1.201108301805]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-06-20 23:21:00.857
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:21:00.857
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.857
+!MESSAGE Software being installed: C/C++ Call Graph Visualization (Incubation) 0.9.0.201202152032 (org.eclipse.linuxtools.callgraph.feature.feature.group 0.9.0.201202152032)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.857
+!MESSAGE Software being installed: C/C++ Call Graph Visualization (Incubation) 0.0.2.201108301805 (org.eclipse.linuxtools.callgraph.feature.group 0.0.2.201108301805)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:21:00.857
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.857
+!MESSAGE Callgraph Launch (Incubation) 0.0.1.201108301805 (org.eclipse.linuxtools.callgraph.launch 0.0.1.201108301805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.857
+!MESSAGE Callgraph Launch (Incubation) 0.9.0.201202152032 (org.eclipse.linuxtools.callgraph.launch 0.9.0.201202152032)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:21:00.857
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.857
+!MESSAGE From: C/C++ Call Graph Visualization (Incubation) 0.9.0.201202152032 (org.eclipse.linuxtools.callgraph.feature.feature.group 0.9.0.201202152032)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.857
+!MESSAGE To: org.eclipse.linuxtools.callgraph.launch [0.9.0.201202152032]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:21:00.857
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.857
+!MESSAGE From: C/C++ Call Graph Visualization (Incubation) 0.0.2.201108301805 (org.eclipse.linuxtools.callgraph.feature.group 0.0.2.201108301805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:21:00.857
+!MESSAGE To: org.eclipse.linuxtools.callgraph.launch [0.0.1.201108301805]
+!SESSION 2015-06-20 23:24:23.019 -----------------------------------------------
+eclipse.buildId=debbuild
+java.version=1.7.0_79
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_IN
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-06-20 23:26:18.704
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2015-06-20 23:26:18.704
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2015-06-20 23:26:18.704
+!MESSAGE "Eclipse Java Development Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2015-06-20 23:26:18.704
+!MESSAGE "CDT Visual C++ Support" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:26:18.704
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.704
+!MESSAGE Software being installed: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201202152032 (org.eclipse.linuxtools.cdt.libhover.feature.feature.group 0.3.0.201202152032)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.705
+!MESSAGE Software being installed: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201108301805 (org.eclipse.linuxtools.cdt.libhover.feature.group 0.3.0.201108301805)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:26:18.705
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.705
+!MESSAGE Libhover C/C++ Library Documentation Plug-in (Incubation) 1.0.2.201106060936 (org.eclipse.linuxtools.cdt.libhover.library.docs 1.0.2.201106060936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.705
+!MESSAGE Libhover C/C++ Library Documentation Plug-in (Incubation) 1.0.2.201202152032 (org.eclipse.linuxtools.cdt.libhover.library.docs 1.0.2.201202152032)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.705
+!MESSAGE Libhover C/C++ Library Documentation Plug-in (Incubation) 1.0.2.201108301805 (org.eclipse.linuxtools.cdt.libhover.library.docs 1.0.2.201108301805)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:26:18.705
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.705
+!MESSAGE From: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201202152032 (org.eclipse.linuxtools.cdt.libhover.feature.feature.group 0.3.0.201202152032)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.705
+!MESSAGE To: org.eclipse.linuxtools.cdt.libhover.library.docs [1.0.2.201202152032]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:26:18.705
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.705
+!MESSAGE From: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201108301805 (org.eclipse.linuxtools.cdt.libhover.feature.group 0.3.0.201108301805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.705
+!MESSAGE To: org.eclipse.linuxtools.cdt.libhover.library.docs [1.0.2.201108301805]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-06-20 23:26:18.711
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2015-06-20 23:26:18.711
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2015-06-20 23:26:18.711
+!MESSAGE "Eclipse Java Development Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2015-06-20 23:26:18.711
+!MESSAGE "CDT Visual C++ Support" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:26:18.711
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.711
+!MESSAGE Software being installed: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201202152032 (org.eclipse.linuxtools.cdt.libhover.feature.feature.group 0.3.0.201202152032)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.711
+!MESSAGE Software being installed: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201108301805 (org.eclipse.linuxtools.cdt.libhover.feature.group 0.3.0.201108301805)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:26:18.711
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.711
+!MESSAGE Libhover C/C++ Library Documentation Plug-in (Incubation) 1.0.2.201106060936 (org.eclipse.linuxtools.cdt.libhover.library.docs 1.0.2.201106060936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.711
+!MESSAGE Libhover C/C++ Library Documentation Plug-in (Incubation) 1.0.2.201202152032 (org.eclipse.linuxtools.cdt.libhover.library.docs 1.0.2.201202152032)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.711
+!MESSAGE Libhover C/C++ Library Documentation Plug-in (Incubation) 1.0.2.201108301805 (org.eclipse.linuxtools.cdt.libhover.library.docs 1.0.2.201108301805)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:26:18.711
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.712
+!MESSAGE From: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201202152032 (org.eclipse.linuxtools.cdt.libhover.feature.feature.group 0.3.0.201202152032)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.712
+!MESSAGE To: org.eclipse.linuxtools.cdt.libhover.library.docs [1.0.2.201202152032]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:26:18.712
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.712
+!MESSAGE From: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201108301805 (org.eclipse.linuxtools.cdt.libhover.feature.group 0.3.0.201108301805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:26:18.712
+!MESSAGE To: org.eclipse.linuxtools.cdt.libhover.library.docs [1.0.2.201108301805]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-06-20 23:27:49.925
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2015-06-20 23:27:49.925
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2015-06-20 23:27:49.925
+!MESSAGE "Eclipse Java Development Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2015-06-20 23:27:49.925
+!MESSAGE "CDT Visual C++ Support" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:27:49.925
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.925
+!MESSAGE Software being installed: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201202152032 (org.eclipse.linuxtools.cdt.libhover.feature.feature.group 0.3.0.201202152032)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.926
+!MESSAGE Software being installed: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201108301805 (org.eclipse.linuxtools.cdt.libhover.feature.group 0.3.0.201108301805)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:27:49.926
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.926
+!MESSAGE Libhover C/C++ Library Documentation Plug-in (Incubation) 1.0.2.201106060936 (org.eclipse.linuxtools.cdt.libhover.library.docs 1.0.2.201106060936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.926
+!MESSAGE Libhover C/C++ Library Documentation Plug-in (Incubation) 1.0.2.201202152032 (org.eclipse.linuxtools.cdt.libhover.library.docs 1.0.2.201202152032)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.926
+!MESSAGE Libhover C/C++ Library Documentation Plug-in (Incubation) 1.0.2.201108301805 (org.eclipse.linuxtools.cdt.libhover.library.docs 1.0.2.201108301805)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:27:49.926
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.926
+!MESSAGE From: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201202152032 (org.eclipse.linuxtools.cdt.libhover.feature.feature.group 0.3.0.201202152032)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.926
+!MESSAGE To: org.eclipse.linuxtools.cdt.libhover.library.docs [1.0.2.201202152032]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:27:49.926
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.926
+!MESSAGE From: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201108301805 (org.eclipse.linuxtools.cdt.libhover.feature.group 0.3.0.201108301805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.926
+!MESSAGE To: org.eclipse.linuxtools.cdt.libhover.library.docs [1.0.2.201108301805]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2015-06-20 23:27:49.930
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.operations 2 10001 2015-06-20 23:27:49.930
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10004 2015-06-20 23:27:49.930
+!MESSAGE "Eclipse Java Development Tools" will be ignored because a newer version is already installed. 
+!SUBENTRY 2 org.eclipse.equinox.p2.operations 2 10005 2015-06-20 23:27:49.931
+!MESSAGE "CDT Visual C++ Support" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:27:49.931
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.931
+!MESSAGE Software being installed: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201202152032 (org.eclipse.linuxtools.cdt.libhover.feature.feature.group 0.3.0.201202152032)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.931
+!MESSAGE Software being installed: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201108301805 (org.eclipse.linuxtools.cdt.libhover.feature.group 0.3.0.201108301805)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:27:49.931
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.931
+!MESSAGE Libhover C/C++ Library Documentation Plug-in (Incubation) 1.0.2.201106060936 (org.eclipse.linuxtools.cdt.libhover.library.docs 1.0.2.201106060936)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.931
+!MESSAGE Libhover C/C++ Library Documentation Plug-in (Incubation) 1.0.2.201202152032 (org.eclipse.linuxtools.cdt.libhover.library.docs 1.0.2.201202152032)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.931
+!MESSAGE Libhover C/C++ Library Documentation Plug-in (Incubation) 1.0.2.201108301805 (org.eclipse.linuxtools.cdt.libhover.library.docs 1.0.2.201108301805)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:27:49.931
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.931
+!MESSAGE From: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201202152032 (org.eclipse.linuxtools.cdt.libhover.feature.feature.group 0.3.0.201202152032)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.931
+!MESSAGE To: org.eclipse.linuxtools.cdt.libhover.library.docs [1.0.2.201202152032]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2015-06-20 23:27:49.931
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.931
+!MESSAGE From: C/C++ Library API Documentation Hover Help (Incubation) 0.3.0.201108301805 (org.eclipse.linuxtools.cdt.libhover.feature.group 0.3.0.201108301805)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2015-06-20 23:27:49.931
+!MESSAGE To: org.eclipse.linuxtools.cdt.libhover.library.docs [1.0.2.201108301805]

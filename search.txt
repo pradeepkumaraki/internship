@@ -1,0 +1,79 @@
+﻿#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+int m,n,maxy;
+int conne(int *);
+int findmax(int *, int, int);
+int maxi(int,int);
+int main() {
+    
+    cin>>m>>n;
+    int a[m][n];
+
+    for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+            cin>>a[i][j];
+           // cout<<a[i][j];
+        }
+    }
+    cout<<conne((int *)a);
+
+    return 0;
+}
+
+int conne(int *a){
+    int ans = 0;
+      for(int i=0;i<m;i++){
+        for(int j=0;j<n;j++){
+            if(*((a+i*n)+j) != 2){
+                if(*((a+i*n)+j)==1){
+                  // *((a+i*n)+j) = 2;
+                    maxy = 1;
+                    *((a+i*n)+j) = 2;
+                 //   cout<<"main i is "<<i<<"main j is "<<j<<endl;
+                    findmax((int *)a,i,j);
+                  //  cout<<maxy;
+                    ans = maxi(ans,maxy);     
+                }
+            }
+        }
+        
+    }
+    return ans;
+}
+
+int maxi(int a, int b){
+    if(a>b){
+        return a;
+    }
+    else return b;
+}
+int findmax(int *a,int row,int column){
+
+    for (int i = row-1; i<= row+1;i++)
+    {
+        for (int j = column-1; j <= column+1;j++)
+        {
+            if ((i>=0) && (j>=0) && (i < m) && (j < n) && !((i == row) && (j == column))){
+                   // cout<<"i is"<<i<<"j is"<<j<<endl;
+                    //cout<<*((a+i*n)+j);
+                    if (*((a+i*n)+j) == 1)
+                    {   
+                        *((a+i*n)+j) = 2;
+                        maxy++;
+                    //    cout<<"before fun "<<maxy<<endl;
+                        maxy = findmax((int *)a,i,j);
+                     //   cout<<"after fun "<<maxy<<endl;
+                       // return maxy;
+                    }
+                    
+
+                
+            }
+        }
+    }
+    return maxy;
+}
